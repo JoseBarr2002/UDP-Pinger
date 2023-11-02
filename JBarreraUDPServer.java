@@ -14,7 +14,7 @@ import java.util.Arrays;
 /**
  * Class that ...
  */
-public class UDPServer {
+public class JBarreraUDPServer {
 
 	/**
 	 * Entrance to the program.

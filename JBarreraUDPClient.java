@@ -14,7 +14,7 @@ import java.io.*;
 /**
  * Client class used to send a message to the Server.
  */
-public class UDPClient {
+public class JBarreraUDPClient {
 
 	/**
 	 * Entrance to the program.
