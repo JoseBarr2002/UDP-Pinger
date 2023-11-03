@@ -45,9 +45,6 @@ public class JBarreraUDPClient {
 			DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, port);
 			clientSocket.send(sendPacket);
 
-			// Debugging
-			System.out.println("UDP Client says: " + statement);
-
 			// Receiving data from the Server.
 			byte[] receiveData = new byte[1024];
 			DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);

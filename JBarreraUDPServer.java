@@ -12,7 +12,7 @@ import java.io.*;
 import java.util.Arrays;
 
 /**
- * Class that ...
+ * Class that acts as a UDP Server.
  */
 public class JBarreraUDPServer {
 
@@ -56,7 +56,6 @@ public class JBarreraUDPServer {
 				Arrays.fill(receiveData, (byte) 0);
 				Arrays.fill(sendData, (byte) 0);
 				System.out.println();
-				serverSocket.close();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
